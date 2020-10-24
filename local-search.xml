@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>C Primer Plus-Chapter 01</title>
+    <link href="/2020/10/24/%E3%80%8AC-Primer-Plus%E3%80%8BChapter-01/"/>
+    <url>/2020/10/24/%E3%80%8AC-Primer-Plus%E3%80%8BChapter-01/</url>
+    
+    <content type="html"><![CDATA[<h1 id="C-语言优点"><a href="#C-语言优点" class="headerlink" title="C 语言优点"></a>C 语言优点</h1><ul><li>强大的控制结构</li><li>快速</li><li>代码紧凑——程序更小</li><li>可移植到其他计算机</li></ul><h1 id="使用-C-语言的-7-个步骤"><a href="#使用-C-语言的-7-个步骤" class="headerlink" title="使用 C 语言的 7 个步骤"></a>使用 C 语言的 7 个步骤</h1><h2 id="定义程序的目标"><a href="#定义程序的目标" class="headerlink" title="定义程序的目标"></a>定义程序的目标</h2><ul><li>自己想做什么</li><li>程序目标</li><li>程序所需信息和处理控制</li></ul><h2 id="设计程序"><a href="#设计程序" class="headerlink" title="设计程序"></a>设计程序</h2><ul><li>如何完成程序</li><li>如何表示数据，处理数据……</li></ul><h2 id="编写代码"><a href="#编写代码" class="headerlink" title="编写代码"></a>编写代码</h2><p>示例：</p><pre><code class="hljs c"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;stdio.h&gt;</span></span><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">(<span class="hljs-keyword">void</span>)</span></span><span class="hljs-function"></span>&#123;    <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;Concrete contains gravel and cement.\n&quot;</span>);        <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;&#125;</code></pre><h2 id="编译"><a href="#编译" class="headerlink" title="编译"></a>编译</h2><p>编译源代码</p><h2 id="运行程序"><a href="#运行程序" class="headerlink" title="运行程序"></a>运行程序</h2><h2 id="测试和调试程序"><a href="#测试和调试程序" class="headerlink" title="测试和调试程序"></a>测试和调试程序</h2><p>程序可能会出现<strong>bug</strong>，学会看错误信息</p><h2 id="维护和修改代码"><a href="#维护和修改代码" class="headerlink" title="维护和修改代码"></a>维护和修改代码</h2><p>修改程序错误或扩展程序用途</p><h1 id="编程机制"><a href="#编程机制" class="headerlink" title="编程机制"></a>编程机制</h1><p>编写内容存储的文本文件叫做 <strong>源代码文件 (source code file)</strong><br>而文件名由<strong>基本名 (basename)</strong> 和 <strong>扩展名 (extension)</strong> 组成</p><h2 id="目标文件代码、可执行文件和库"><a href="#目标文件代码、可执行文件和库" class="headerlink" title="目标文件代码、可执行文件和库"></a>目标文件代码、可执行文件和库</h2><p><img src="https://gitee.com/zhixin-devme/devme-images/raw/master/img/%E7%BC%96%E8%AF%91%E5%99%A8%E5%92%8C%E9%93%BE%E6%8E%A5%E5%99%A8.png" alt="编译器和链接器"></p><h2 id="PC-的命令行编译器"><a href="#PC-的命令行编译器" class="headerlink" title="PC 的命令行编译器"></a>PC 的命令行编译器</h2><p>可以下载 <strong>Cygwin</strong> 和 <strong>MinGW</strong><br>Cygwin 在自己的视窗运行；MinGW 在 Windows10 的命令提示模式中运行。<br>生成可执行文件后，可以在命令行输入基本名来运行该程序。</p><h2 id="集成开发环境（Windows）"><a href="#集成开发环境（Windows）" class="headerlink" title="集成开发环境（Windows）"></a>集成开发环境（Windows）</h2><p>Windows 下的集成开发环境，或称为 IDE （目前，大多数IDE都是 C 和 C++ 结合的编译器）</p><blockquote><p><strong>Microsoft Visual Studio 和 C 标准</strong></p><p>在新建项目中选择 C++ 选项，然后选择【Win32控制台应用程序】，在应用设置中选择【空项&gt; 目】。几乎所有的 C 程序都能与 C++ 程序兼容。</p></blockquote><h2 id="复习题"><a href="#复习题" class="headerlink" title="复习题"></a>复习题</h2><ol><li>对编程而言，<em>可移植性</em> 意味着什么？</li></ol><blockquote><p><strong>答：</strong></p><p>可移植性意味着我们写出来的代码只需很少的修改就能在其他系统内运行。</p></blockquote><ol start="2"><li>解释源代码文件、目标代码文件和可执行文件有什么区别？</li></ol><blockquote><p><strong>答：</strong></p><p>源代码文件是我们在文本编辑器中写的内容的储存文件。<br>目标代码文件是经过编译器编译过但无法运行的文件。<br>可执行文件指经过链接器合成后的可以在系统内运行的文件。</p></blockquote><ol start="3"><li>编程的 7 个主要步骤是什么？</li></ol><blockquote><p><strong>答：</strong></p><ol><li>定义程序的目标</li><li>设计程序</li><li>编写代码</li><li>编译</li><li>运行程序</li><li>测试和调试程序</li><li>维护和修改程序</li></ol></blockquote><ol start="4"><li>编译器的任务是什么？</li></ol><blockquote><p><strong>答：</strong></p><p>把源代码文件编译为目标代码文件。</p></blockquote><ol start="5"><li>链接器的任务是什么？</li></ol><blockquote><p><strong>答：</strong></p><p>把目标代码文件和库文件、启动文件合成为可执行文件。</p></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>Note</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>C</tag>
+      
+      <tag>C Primer Plus</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2020/10/23/hello-world/"/>
     <url>/2020/10/23/hello-world/</url>
