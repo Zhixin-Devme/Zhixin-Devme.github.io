@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Devme's Blog",
+    "title": "Devme's Blog • All posts by \"效率\" tag",
     "description": "Devme's Personal Space",
     "home_page_url": "https://zhixin-devme.github.io",
     "items": [
@@ -14,14 +14,6 @@
                 "工具",
                 "效率"
             ]
-        },
-        {
-            "id": "https://zhixin-devme.github.io/2021/02/18/Hello-Hexo/",
-            "url": "https://zhixin-devme.github.io/2021/02/18/Hello-Hexo/",
-            "title": "Hello Hexo",
-            "date_published": "2021-02-18T08:33:01.000Z",
-            "content_html": "",
-            "tags": []
         }
     ]
 }

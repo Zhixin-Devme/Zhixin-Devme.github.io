@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhixin-devme.github.io</id>
-    <title>Devme&#39;s Blog</title>
+    <title>Devme&#39;s Blog • Posts by &#34;效率&#34; tag</title>
     <link href="https://zhixin-devme.github.io" />
     <updated>2021-02-28T14:39:22.000Z</updated>
     <category term="工具" />
@@ -14,12 +14,5 @@
         <category term="工具" />
         <category term="效率" />
         <updated>2021-02-28T14:39:22.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://zhixin-devme.github.io/2021/02/18/Hello-Hexo/</id>
-        <title>Hello Hexo</title>
-        <link rel="alternate" href="https://zhixin-devme.github.io/2021/02/18/Hello-Hexo/"/>
-        <content type="html"></content>
-        <updated>2021-02-18T08:33:01.000Z</updated>
     </entry>
 </feed>

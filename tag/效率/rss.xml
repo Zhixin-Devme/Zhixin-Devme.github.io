@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>Devme&#39;s Blog</title>
+        <title>Devme&#39;s Blog • Posts by &#34;效率&#34; tag</title>
         <link>https://zhixin-devme.github.io</link>
         <description>Devme&#39;s Personal Space</description>
         <language>zh-CN</language>
@@ -16,13 +16,6 @@
             <category>工具</category>
             <category>效率</category>
             <pubDate>Sun, 28 Feb 2021 22:39:22 +0800</pubDate>
-            <description><![CDATA[  ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://zhixin-devme.github.io/2021/02/18/Hello-Hexo/</guid>
-            <title>Hello Hexo</title>
-            <link>https://zhixin-devme.github.io/2021/02/18/Hello-Hexo/</link>
-            <pubDate>Thu, 18 Feb 2021 16:33:01 +0800</pubDate>
             <description><![CDATA[  ]]></description>
         </item>
     </channel>
